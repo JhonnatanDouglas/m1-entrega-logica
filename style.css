@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: whitesmoke;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    background-color: #6c757d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.containerMain {
+    width: 1200px;
+    min-width: 400px;
+    background-color: #343a40;
+}
+
+.containerMain .cabecalho {
+    margin: 0px 35px;
+}
+
+.containerMain .cabecalho h1 {
+    margin: 25px 0px;
+    text-align: center;
+    font-size: 40px;
+    border: none;
+}
+
+.containerMain .cabecalho h2 {
+    margin: 15px 7px;
+}
+
+.containerMain .cabecalho p {
+    margin: 5px 7px;
+    line-height: 30px;
+}
+
+.containerMain .sessaoConfig {
+    margin: 50px 35px;
+}
+
+.containerMain .sessaoConfig h3 {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.containerMain .sessaoConfig li {
+    margin: 0px 25px;
+    line-height: 25px;
+}
